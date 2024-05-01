@@ -52,6 +52,7 @@ public class AbstractComponent {
 	
 	public OrderPage goToOrdersPage() {
 		System.out.println("just try git commit");
+		System.out.println("commit from California");
 		ordersPageButton.click();
 		OrderPage orderPage = new OrderPage(driver);
 		return orderPage;
