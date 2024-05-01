@@ -45,6 +45,7 @@ public class AbstractComponent {
 	}
 	
 	public ProductCart goToCartPage() {
+		System.out.println("commit to development");
 		cartButton.click();
 		ProductCart productCart = new ProductCart(driver);
 		return productCart;
